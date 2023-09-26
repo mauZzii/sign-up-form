@@ -4,7 +4,7 @@ Project to create a Sign Up Form using HTML, CSS and Vanilla JS.
 
 From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form).
 
-🔗 **Live preview:** [here](to be inserted later)
+🔗 **Live preview:** [here](https://mauzzii.github.io/sign-up-form/)
 
 ## Tech Used 
 
@@ -26,8 +26,6 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 
 ## Outcome
 
-* Tried to maintain **clean code**
-
-## Summary
+### Summary
 
 ### What Was Learned

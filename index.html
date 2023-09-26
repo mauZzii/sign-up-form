@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
     <title>Join the Journey | Sign up Today!</title>
 </head>
 <body>
     <div class="main-container">
         <div class="left-container">
-            <!--insert a logo image here--> <!--Photo by <a href="https://unsplash.com/@alexshuperart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Shuper</a> on <a href="https://unsplash.com/photos/a-person-in-a-field-with-a-light-on-their-head-SNliMkZHVig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
-            <!--insert brand name here-->
+            <div class="logo">
+                <!--insert a logo image here-->
+                <img src="img/astronaut.png" alt="astronaut logo" class="astronaut">
+                <!--insert brand name here-->
+                <h1 class="brand">AstroNots</h1>
+            </div>
+            <p class="photo-cred">Photo by 
+                <a href="https://unsplash.com/@alexshuperart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Shuper</a> on 
+                <a href="https://unsplash.com/photos/a-person-in-a-field-with-a-light-on-their-head-SNliMkZHVig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                    Unsplash
+                </a>
+            </p>
         </div>
         <div class="right-container">
             <div class="right-text">
@@ -21,21 +32,33 @@
                 <div class="form">
                     <div class="input-container">
                         <!--first name-->
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first_Name">
                     </div>
                     <div class="input-container">
                         <!--last name-->
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last_Name">
                     </div>
                     <div class="input-container">
                         <!--email-->
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="user_Email">
                     </div>
                     <div class="input-container">
                         <!--phone-->
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone">
                     </div>
                     <div class="input-container">
                         <!--password-->
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
                     </div>
                     <div class="input-container">
                         <!--password check-->
+                        <label for="password-confirm">Confirm Password</label>
+                        <input type="password" name="password_Confirm" id="password-confirm">
                     </div>
                 </div>
                 <div class="form-button">
