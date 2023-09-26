@@ -24,8 +24,11 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 
 * [normalize.css](https://necolas.github.io/normalize.css/)
 
-## Outcome
-
-### Summary
+## Summary
 
 ### What Was Learned
+
+* Relative/Absolute Positioning
+* Touched on Flexbox
+
+### Comments/To Do
