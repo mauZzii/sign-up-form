@@ -1,6 +1,6 @@
 :root {
-    --color: #ffea62;
-    --txt: #f0f0f0;
+    --color: #e6d35b;
+    --txt: #ccc;
 }
 
 * {
@@ -9,6 +9,26 @@
     box-sizing: border-box;
     font-family: "Alegreya Sans", sans-serif;
     color: var(--txt);
+}
+
+a, h1 {
+    color: var(--color);
+}
+
+input{
+    background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+label,
+input {
+    color: white;
 }
 
 .main-container {
@@ -42,10 +62,6 @@
     align-items: center;
 }
 
-h1 {
-    color: var(--color);
-}
-
 .astronaut {
     height: 10vh;
 }
@@ -53,10 +69,6 @@ h1 {
 .photo-cred {
     color: var(--txt);
     text-align: center;
-}
-
-.photo-cred a {
-    color: var(--color);
 }
 
 .right-container {
@@ -102,15 +114,9 @@ h1 {
     font-weight: 500;
 }
 
-input{
-    background-color: rgb(2, 2, 2);
-    border: 1px solid rgb(77, 77, 77);
-    border-radius: 3px;
-}
-
-input:focus{
-    outline: none;
-    border: 2px solid var(--color);
+#pw-error,
+#pwc-error {
+    color: #ffed75;
 }
 
 #submit-button{
