@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Caesar Dressing", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     color: var(--txt);
 }
 
@@ -65,4 +65,67 @@ h1 {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    padding-left: 5vw;
+}
+
+.right-main-text{
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.75rem;
+}
+
+.right-subtext{
+    margin: 40px 0 80px;
+    font-size: 1.3rem;
+}
+
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input-container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: .8rem;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input{
+    background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+#submit-button{
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--color);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+#submit-button:hover{
+    background-color: var(--color);
+    color: black;
+    
 }
