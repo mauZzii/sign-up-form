@@ -32,3 +32,9 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node
 * Touched on Flexbox
 
 ### Comments/To Do
+
+* Insert form header
+* Style form
+* Add already member/login section
+* Add JS functionality to check passwords match
+* Add REGEXP or JS to make sure passwords use certain criteria (Lowercase, uppercase, number, and symbol)
