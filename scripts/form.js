@@ -7,17 +7,16 @@ let passConfError = document.getElementById("pwc-error");
 
 
 signupform.addEventListener("submit", (e) => {
-    e.preventDefault();
     if (password.value === "" || confirmPassword.value === "") {
         passwordError.textContent = "Please enter password twice"
         passConfError.textContent = "";
+        e.preventDefault();
     } else if (password.value !== confirmPassword.value) {
         passwordError.textContent = "Password does not match";
         passConfError.textContent = "Password does not match";
-        return false;
+        e.preventDefault();
     } else {
         passwordError.textContent = "";
         passConfError.textContent = "";
-        return true;
     };
 });
